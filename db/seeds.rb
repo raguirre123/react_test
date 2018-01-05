@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+CodeStatus.create(name: "Activo", code: 11)
+CodeStatus.create(name: "Inactivo", code: 12)
